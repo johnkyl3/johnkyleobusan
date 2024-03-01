@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    background-color: #001e4d;
+  }
+  .app{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    display: block;
+  }
+  .app h1{
+    font-weight: 700;
+    color: #001e4d;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+  }
+  .appDisplay{
+    display: none;
+  }
+  .quiz{
+    padding: 20px 0;
+  }
+  .quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+  }
+  .btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+  }
+  .btn:disabled{
+    cursor: no-drop;
+  }
+  #nextbtn{
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    display: none;
+  }
+  #mainMenu{
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  .nextmain{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .correct{
+    background: #9aeabc;
+  }
+  .incorrect{
+    background: #ff9393;
+  }
+
+.info{
+  font-weight: 900;
+  color: #001e4d;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  gap: 20px;
+}
+.infoDisplay{
+  display: flex;
+}
+.buttonhome {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 18px;
+  height: 52px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonhome:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
+}
+
+.buttonhome:active {
+  outline: 0;
+}
+
+.buttonhome:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .buttonhome {
+    height: 48px;
+  }
+}
+
+.guidemenu{
+  font-weight: 900;
+  color: #001e4d;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+  position: absolute;
+  left: 33%;
+  top: 5%;
+  gap: 20px;
+  text-align: center;
+}
+.guidehide{
+  display: none;
+}
+li{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 10px;
+}
+h6{
+  font-size: 22px;
+  font-weight: 700;
+}
